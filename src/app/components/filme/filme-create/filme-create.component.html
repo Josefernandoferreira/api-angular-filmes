@@ -1,0 +1,37 @@
+<mat-card>
+    <mat-card-title>Novo Filme</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+                [(ngModel)]="filme.nome" name="nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ano (R$)"
+                [(ngModel)]="filme.ano" name="ano">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Diretor"
+                [(ngModel)]="filme.diretor" name="diretor">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Gênero"
+                [(ngModel)]="filme.genero" name="genero">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descrição"
+                [(ngModel)]="filme.descricao" name="descricao">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Pôster"
+                [(ngModel)]="filme.poster" name="poster">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createFilme()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+

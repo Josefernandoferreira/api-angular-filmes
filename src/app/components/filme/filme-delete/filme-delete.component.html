@@ -1,0 +1,35 @@
+<mat-card>
+    <mat-card-title>Excluir Filme</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+                [value]="filme.nome" name="nome" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ano (R$)"
+                [value]="filme.ano" name="ano" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Diretor"
+                [value]="filme.diretor" name="diretor" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Gênero"
+                [value]="filme.genero" name="genero" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descrição"
+                [value]="filme.descricao" name="descricao" disabled>
+        </mat-form-field>
+        <mat-form-field>
+                <img src="{{filme.poster}}" name="poster" style="width: 180px; height: 300px; border-radius: 0.5rem;">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="deleteFilme()" color="warn">
+        Excluir
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
