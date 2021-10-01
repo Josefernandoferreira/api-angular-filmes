@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+ Ultra",
+      "price": "7520.89"
+    },
+    {
+      "name": "Lapis Preto Básico",
+      "price": "1.50",
+      "id": 4
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "nome": "Avengers: Infinity War",
+      "ano": 2018,
+      "diretor": "Anthony Russo & Joe Russo",
+      "genero": "Sci-fi/Action",
+      "descricao": "Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality.",
+      "poster": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/Avengers_Infinity_War.jpg/250px-Avengers_Infinity_War.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Spider-Man: Far From Home",
+      "ano": 2019,
+      "diretor": "Jon Watts",
+      "genero": "Ação Aventura",
+      "descricao": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+      "poster": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/Official_FFH_US_Poster.jpg/revision/latest?cb=20190522171521"
+    },
+    {
+      "id": 3,
+      "nome": "Thor: Ragnarok",
+      "ano": 2017,
+      "diretor": "Taika Waititi",
+      "genero": "Fantasy/Sci-fi",
+      "descricao": "Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg"
+    },
+    {
+      "nome": "Spider-Man: Homecoming",
+      "ano": "2017",
+      "diretor": "Jon Watts",
+      "genero": "Ação Aventura",
+      "descricao": "After fighting alongside the Avengers, it was time for young Peter Parker to return home to New York alongside his aunt May. Under the watchful eye of mentor Tony Stark, Peter begins to embrace his new identity as Spider-Man and daily fights petty crimes nearby. He believes he has found a mission of his life when the terrifying villain Vulture appears threatening the city. The problem is that the task will not be as easy as he imagined.",
+      "poster": "https://miro.medium.com/max/676/1*sgTx0ULi8mLjTUGGQgCDDQ.jpeg",
+      "id": 4
+    }
+  ]
+}
